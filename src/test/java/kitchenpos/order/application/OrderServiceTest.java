@@ -10,7 +10,7 @@ import kitchenpos.order.dto.OrderLineItemRequest;
 import kitchenpos.order.dto.OrderRequest;
 import kitchenpos.order.dto.OrderResponse;
 import kitchenpos.order.dto.UpdateOrderStatusRequest;
-import kitchenpos.table.validator.OrderValidatorImpl;
+import kitchenpos.order.validator.OrderValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -35,7 +35,7 @@ public class OrderServiceTest {
     @Mock
     OrderRepository orderRepository;
     @Mock
-    OrderValidatorImpl orderValidator;
+    OrderValidator orderValidator;
     @InjectMocks
     OrderService orderService;
 

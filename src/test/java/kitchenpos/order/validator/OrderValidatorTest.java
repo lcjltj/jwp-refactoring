@@ -5,7 +5,6 @@ import kitchenpos.order.dto.OrderRequest;
 import kitchenpos.table.domain.OrderTable;
 import kitchenpos.table.domain.repository.OrderTableRepository;
 import kitchenpos.table.exception.TableException;
-import kitchenpos.table.validator.OrderValidatorImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -26,7 +25,7 @@ public class OrderValidatorTest {
     @Mock
     OrderTableRepository orderTableRepository;
     @InjectMocks
-    OrderValidatorImpl orderValidator;
+    OrderValidator orderValidator;
 
     @Test
     @DisplayName("테이블 변경 가능")

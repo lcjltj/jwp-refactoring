@@ -9,7 +9,7 @@ import kitchenpos.order.dto.OrderResponse;
 import kitchenpos.order.dto.UpdateOrderStatusRequest;
 import kitchenpos.order.exception.OrderException;
 import kitchenpos.order.exception.OrderExceptionType;
-import kitchenpos.table.validator.OrderValidatorImpl;
+import kitchenpos.order.validator.OrderValidator;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,11 +19,11 @@ import java.util.List;
 public class OrderService {
     private final MenuRepository menuRepository;
     private final OrderRepository orderRepository;
-    private final OrderValidatorImpl orderValidator;
+    private final OrderValidator orderValidator;
 
     public OrderService(final MenuRepository menuRepository,
                         final OrderRepository orderRepository,
-                        final OrderValidatorImpl orderValidator) {
+                        final OrderValidator orderValidator) {
         this.menuRepository = menuRepository;
         this.orderRepository = orderRepository;
         this.orderValidator = orderValidator;
