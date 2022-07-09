@@ -1,10 +1,10 @@
 package kitchenpos.menu.domain;
 
+import com.kitchenpos.domain.MenuProduct;
+import com.kitchenpos.domain.MenuProducts;
 import kitchenpos.product.domain.ProductTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import java.math.BigDecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

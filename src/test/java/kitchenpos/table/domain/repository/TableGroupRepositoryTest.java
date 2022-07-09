@@ -1,7 +1,9 @@
 package kitchenpos.table.domain.repository;
 
-import kitchenpos.table.domain.OrderTable;
-import kitchenpos.table.domain.TableGroup;
+import com.kitchenpos.domain.OrderTable;
+import com.kitchenpos.domain.TableGroup;
+import com.kitchenpos.domain.repository.OrderTableRepository;
+import com.kitchenpos.domain.repository.TableGroupRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,12 +1,13 @@
 package kitchenpos.menu.validator;
 
-import kitchenpos.menu.domain.repository.MenuGroupRepository;
-import kitchenpos.menu.dto.CreateMenuRequest;
-import kitchenpos.menu.dto.MenuProductRequest;
-import kitchenpos.menu.exception.MenuException;
-import kitchenpos.product.domain.Product;
-import kitchenpos.product.domain.ProductRepository;
-import kitchenpos.product.exception.ProductException;
+import com.kitchenpos.domain.repository.MenuGroupRepository;
+import com.kitchenpos.dto.CreateMenuRequest;
+import com.kitchenpos.dto.MenuProductRequest;
+import com.kitchenpos.exception.MenuException;
+import com.kitchenpos.validator.MenuValidator;
+import com.kitchenpos.domain.Product;
+import com.kitchenpos.domain.ProductRepository;
+import com.kitchenpos.exception.ProductException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

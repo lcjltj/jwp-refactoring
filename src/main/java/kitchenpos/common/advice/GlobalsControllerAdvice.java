@@ -1,8 +1,8 @@
 package kitchenpos.common.advice;
 
-import kitchenpos.menu.exception.MenuException;
-import kitchenpos.order.exception.OrderException;
-import kitchenpos.product.exception.ProductException;
+import com.kitchenpos.exception.MenuException;
+import com.kitchenpos.exception.OrderException;
+import com.kitchenpos.exception.ProductException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,11 @@
 package kitchenpos.table.validator;
 
-import kitchenpos.order.domain.Order;
-import kitchenpos.order.domain.repository.OrderRepository;
-import kitchenpos.order.domain.OrderStatus;
-import kitchenpos.table.domain.OrderTable;
-import kitchenpos.table.exception.TableException;
+import com.kitchenpos.validator.OrderTableValidator;
+import com.kitchenpos.domain.Order;
+import com.kitchenpos.domain.repository.OrderRepository;
+import com.kitchenpos.domain.OrderStatus;
+import com.kitchenpos.domain.OrderTable;
+import com.kitchenpos.exception.TableException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

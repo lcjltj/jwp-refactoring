@@ -1,9 +1,10 @@
 package kitchenpos.table.application;
 
-import kitchenpos.table.domain.OrderTable;
-import kitchenpos.table.domain.repository.OrderTableRepository;
-import kitchenpos.table.dto.OrderTableResponse;
-import kitchenpos.table.validator.OrderTableValidator;
+import com.kitchenpos.application.TableService;
+import com.kitchenpos.domain.OrderTable;
+import com.kitchenpos.domain.repository.OrderTableRepository;
+import com.kitchenpos.dto.OrderTableResponse;
+import com.kitchenpos.validator.OrderTableValidator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

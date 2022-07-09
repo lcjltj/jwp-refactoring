@@ -1,6 +1,9 @@
 package kitchenpos.table.domain;
 
-import kitchenpos.table.exception.TableException;
+import com.kitchenpos.domain.OrderTable;
+import com.kitchenpos.domain.OrderTables;
+import com.kitchenpos.domain.TableGroup;
+import com.kitchenpos.exception.TableException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
